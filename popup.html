@@ -2,8 +2,22 @@
 <html>
 <head>
   <title>Sensitive Info Blocker</title>
+  <link rel="stylesheet" href="popup.css">
 </head>
 <body>
-  <h1>Status: Active</h1>
+  <div class="popup" id="popup">
+    <div class="popup-header">
+      <h1>Sensitive Info Blocker</h1>
+    </div>
+    <div class="popup-content">
+      <p id="status-text">Status: <span id="status">Active</span></p>
+      <label class="switch">
+        <input type="checkbox" id="toggle-switch" checked>
+        <span class="slider round"></span>
+      </label>
+    </div>
+  </div>
+  <script src="popup.js"></script>
 </body>
 </html>
+
