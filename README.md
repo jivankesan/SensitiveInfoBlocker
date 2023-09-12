@@ -25,7 +25,7 @@ SensitiveInfoBlocker is a Chrome extension designed to enhance the security and 
 
 1. Open a ChatGPT session.
 2. Begin typing as you normally would.
-3. If you attempt to submit sensitive information, a pop-up alert will appear, and the submission will be blocked.
+3. If you attempt to submit sensitive information using the send button, a pop-up alert will appear, and the submission will be blocked.
 4. To customize the list of sensitive information or whitelist websites, right-click the extension icon and go to "Options".
 
 ## Configuration
